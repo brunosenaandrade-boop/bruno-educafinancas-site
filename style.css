@@ -332,38 +332,15 @@ img {
   align-items: center;
 }
 
-.sobre-image-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.sobre-foto {
   width: 100%;
-  aspect-ratio: 3/4;
   max-width: 380px;
-  background: var(--bg-card);
-  border: 2px dashed var(--border-light);
+  aspect-ratio: 1;
+  object-fit: cover;
   border-radius: var(--radius-lg);
+  border: 2px solid var(--border-light);
   margin: 0 auto;
-}
-
-.placeholder-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  background: var(--green-glow);
-  border: 2px solid var(--green);
-  border-radius: 50%;
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--green);
-  margin-bottom: 1rem;
-}
-
-.placeholder-text {
-  color: var(--text-muted);
-  font-size: 0.9rem;
+  display: block;
 }
 
 .sobre-text h2 {
